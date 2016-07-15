@@ -4,26 +4,82 @@
   
     
     <entry>
-      <title><![CDATA[mac使用方法]]></title>
-      <url>https://xu455255849.github.io/2016/07/14/mac%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
-      <content type="html"></content>
+      <title><![CDATA[markdown标签语言学习]]></title>
+      <url>wwww.mysite.com/2016/07/14/markdown%E6%A0%87%E7%AD%BE%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/</url>
+      <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h1 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h1><ul>
+<li>lll</li>
+<li>asdas</li>
+</ul>
+<h1 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h1><ol>
+<li>1</li>
+<li>2</li>
+<li>3<blockquote>
+<p>这是一个引用</p>
+</blockquote>
+</li>
+</ol>
+<h1 id="插入链接"><a href="#插入链接" class="headerlink" title="插入链接"></a>插入链接</h1><p><a href="http://www.baidu.com" target="_blank" rel="external">baidu</a><br><a>text url [external] [title]</a></p>
+<h1 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h1><p><img src="http://pic31.nipic.com/20130731/10643934_150649261194_2.jpg" alt="img"></p>
+<h1 id="粗体和斜体"><a href="#粗体和斜体" class="headerlink" title="粗体和斜体"></a>粗体和斜体</h1><p><strong>这里是粗体</strong>  <em>这里是斜体</em></p>
+<h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><hr>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align:center">Are</th>
+<th style="text-align:right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h1 id="代码框"><a href="#代码框" class="headerlink" title="代码框"></a>代码框</h1><p><code>&lt;code&gt;&lt;/code&gt;</code></p>
+<h1 id="这里开始是hexo-next主题专属标签"><a href="#这里开始是hexo-next主题专属标签" class="headerlink" title="这里开始是hexo next主题专属标签"></a>这里开始是hexo next主题专属标签</h1><h1 id="iframe"><a href="#iframe" class="headerlink" title="iframe"></a>iframe</h1><iframe src="url" width="[width]" height="[height]" frameborder="0" allowfullscreen></iframe>
+<h1 id="在文章插入视频"><a href="#在文章插入视频" class="headerlink" title="在文章插入视频"></a>在文章插入视频</h1><div class="video-container"><iframe src="//player.vimeo.com/video/video_id" frameborder="0" allowfullscreen></iframe></div>
+<h1 id="在首页显示文章图片"><a href="#在首页显示文章图片" class="headerlink" title="在首页显示文章图片"></a>在首页显示文章图片</h1>
+<h1 id="在文中插入代码块"><a href="#在文中插入代码块" class="headerlink" title="在文中插入代码块"></a>在文中插入代码块</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alert(&apos;Hello World!&apos;);</div></pre></td></tr></table></figure>
+<h1 id="突破框的图片"><a href="#突破框的图片" class="headerlink" title="突破框的图片"></a>突破框的图片</h1><img src="/images/tou.jpg" class="full-image" alt="alt" title="title">
+<h1 id="插入文件夹内的代码文件"><a href="#插入文件夹内的代码文件" class="headerlink" title="插入文件夹内的代码文件"></a>插入文件夹内的代码文件</h1>
+<h1 id="文本居中的引用"><a href="#文本居中的引用" class="headerlink" title="文本居中的引用"></a>文本居中的引用</h1><blockquote class="blockquote-center"><p>blah blah blah </p>
+</blockquote>
+]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[我是徐绍平]]></title>
-      <url>https://xu455255849.github.io/2016/07/14/%E6%88%91%E6%98%AF%E5%BE%90%E7%BB%8D%E5%B9%B3/</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[name]]></title>
-      <url>https://xu455255849.github.io/2016/07/14/name/</url>
-      <content type="html"></content>
+      <title><![CDATA[mac配置及使用]]></title>
+      <url>wwww.mysite.com/2016/07/14/mac%E9%85%8D%E7%BD%AE%E5%8F%8A%E4%BD%BF%E7%94%A8/</url>
+      <content type="html"><![CDATA[<h1 id="Mac常用命令"><a href="#Mac常用命令" class="headerlink" title="Mac常用命令"></a>Mac常用命令</h1><p>ls 列出目录下文件<br>cd  转到指定目录<br>mkdir 建立新目录<br>把驱动目录下的所有文件备份到桌面backup<br>拷贝文件<br>cp 参数 源文件 目标文件<br>例：想把桌面的Natit.kext 拷贝到驱动目录中<br>cp -R /User/用户名/Desktop/Natit.kext /System/Library/Extensions<br>参数R表示对目录进行递归操作，kext在图形界面下看起来是个文件，实际上是个文件夹。<br>把驱动目录下的所有文件备份到桌面backup<br>cp -R /System/Library/Extensions/* /User/用户名/Desktop/backup<br>删除文件<br>rm 参数 文件<br>例：想删除驱动的缓存<br>rm -rf /System/Library/Extensions.kextcache<br>rm -rf /System/Library/Extensions.mkext<br>参数－rf 表示递归和强制，千万要小心使用，如果执行了 rm -rf / 你的系统就全没了 </p>
+<p>移动文件<br>mv 文件<br>例：想把AppleHDA.Kext 移到桌面<br>mv /System/Library/Extensions/AppleHDA.kext /User/用户名/Desktop<br>想把AppleHDA.Kext 移到备份目录中<br>mv /System/Library/Extensions/AppleHDA.kext /System/Library/Extensions/backup<br>管理权限 sudo</p>
+<h1 id="Mac终端"><a href="#Mac终端" class="headerlink" title="Mac终端"></a>Mac终端</h1><h2 id="homebrew"><a href="#homebrew" class="headerlink" title="homebrew"></a>homebrew</h2><p><code>ruby -e &quot;$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)&quot;</code></p>
+<h2 id="homebrew常用命令"><a href="#homebrew常用命令" class="headerlink" title="homebrew常用命令"></a>homebrew常用命令</h2><p>利用brew安装软件</p>
+<p>brew常用命令<br>●brew install name         # 安装源码<br>●brew info svn                # 显示软件的各种信息，包括版本啊源码地址啊等等<br>●brew uninstall name     # 卸载软件，很爽，一键静默卸载<br>●brew search name       # 搜索brew 支持的软件，支持模糊搜索<br>●brew list                       # 列出本机通过brew安装的所有软件<br>●brew update                # 跟新brew软件自身<br>●brew upgrade name    # 更新安装过的软件,如果不加软件名，就更新所有可以更新的软件<br>●brew cleanup              # 清除下载的各种缓存<br>详见man brew</p>
+<h2 id="brewcask"><a href="#brewcask" class="headerlink" title="brewcask"></a>brewcask</h2><p>brew cask是一个用命令行管理Mac下应用的工具，它是基于homebrew的一个增强工具。<br><code>brew install brew-cask</code></p>
+<p>brew cask的常用命令<br>●brew cask search               # 列出所有可以被安装的软件<br>●brew cask search name     # 查找所有和 name相关的应用<br>●brew cask install name       # 下载安装软件<br>●brew cask uninstall name   # 卸载软件<br>●brew cask info app             # 列出应用的信息<br>●brew cask list                      # 列出本机按照过的软件列表<br>●brew cask cleanup              # 清除下载的缓存以及各种链接信息<br>PS:详见man brew cask</p>
+<h1 id="on-my-zsh"><a href="#on-my-zsh" class="headerlink" title="on my zsh"></a>on my zsh</h1><p>wget 自动安装<br><code>wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh</code></p>
+<p>还有手动安装的方法，可以自行百度。<br><a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="external">github源码</a></p>
+<h1 id="sublime-text编辑器"><a href="#sublime-text编辑器" class="headerlink" title="sublime text编辑器"></a>sublime text编辑器</h1><p>个人非常推荐的一款编辑器，很强大。可以用brew安装</p>
+]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>https://xu455255849.github.io/2016/07/14/hello-world/</url>
+      <url>wwww.mysite.com/2016/07/14/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>

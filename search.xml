@@ -4,6 +4,50 @@
   
     
     <entry>
+      <title><![CDATA[杭州唐古公司面试]]></title>
+      <url>https://xu455255849.github.io/2016/08/16/%E6%9D%AD%E5%B7%9E%E5%94%90%E5%8F%A4%E5%85%AC%E5%8F%B8%E9%9D%A2%E8%AF%95/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这里时杭州唐古的面试总结，比较偏向基础和antd，顺便记录下中软国际面试的几道题，中软基本都是选择题，不好纪录。</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="画图介绍下w3c盒子模型-？"><a href="#画图介绍下w3c盒子模型-？" class="headerlink" title="画图介绍下w3c盒子模型 ？"></a>画图介绍下w3c盒子模型 ？</h2><p>a：<a href="http://www.cnblogs.com/cchyao/archive/2010/07/12/1775846.html" target="_blank" rel="external">http://www.cnblogs.com/cchyao/archive/2010/07/12/1775846.html</a></p>
+<h2 id="typeof输出几种数据类型？"><a href="#typeof输出几种数据类型？" class="headerlink" title="typeof输出几种数据类型？"></a>typeof输出几种数据类型？</h2><p>a：我回答了5种 number string object boolean function 还有一种 underfined。</p>
+<h2 id="一些jq相关的基本语法考查"><a href="#一些jq相关的基本语法考查" class="headerlink" title="一些jq相关的基本语法考查"></a>一些jq相关的基本语法考查</h2><p><code>$(document).ready(function(){
+  $(&quot;p&quot;).click(function(){
+  $(this).hide();
+  });
+});</code></p>
+<p><code>$(&quot;p&quot;).css(&quot;background-color&quot;,&quot;red&quot;);</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">$(&quot;#btn1&quot;).click(function()&#123;</div><div class="line">  $(&quot;#test1&quot;).text(&quot;Hello world!&quot;);</div><div class="line">&#125;);</div><div class="line">$(&quot;#btn2&quot;).click(function()&#123;</div><div class="line">  $(&quot;#test2&quot;).html(&quot;&lt;b&gt;Hello world!&lt;/b&gt;&quot;);</div><div class="line">&#125;);</div><div class="line">$(&quot;#btn3&quot;).click(function()&#123;</div><div class="line">  $(&quot;#test3&quot;).val(&quot;Dolly Duck&quot;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p><code>$(&quot;button&quot;).click(function(){
+  $(&quot;#w3s&quot;).attr(&quot;href&quot;,&quot;http://www.w3school.com.cn/jquery&quot;);
+});</code></p>
+<h2 id="简单说明canvas和svg"><a href="#简单说明canvas和svg" class="headerlink" title="简单说明canvas和svg"></a>简单说明canvas和svg</h2><p>SVG<br>SVG 是一种使用 XML 描述 2D 图形的语言。<br>SVG 基于 XML，这意味着 SVG DOM 中的每个元素都是可用的。您可以为某个元素附加 JavaScript 事件处理器。<br>在 SVG 中，每个被绘制的图形均被视为对象。如果 SVG 对象的属性发生变化，那么浏览器能够自动重现图形。</p>
+<p>Canvas 通过 JavaScript 来绘制 2D 图形。<br>Canvas 是逐像素进行渲染的。<br>在 canvas 中，一旦图形被绘制完成，它就不会继续得到浏览器的关注。如果其位置发生变化，那么整个场景也需要重新绘制，包括任何或许已被图形覆盖的对象。</p>
+<p>Canvas 与 SVG 的比较<br>下表列出了 canvas 与 SVG 之间的一些不同之处。<br>Canvas<br>依赖分辨率<br>不支持事件处理器<br>弱的文本渲染能力<br>能够以 .png 或 .jpg 格式保存结果图像<br>最适合图像密集型的游戏，其中的许多对象会被频繁重绘<br>SVG<br>不依赖分辨率<br>支持事件处理器<br>最适合带有大型渲染区域的应用程序（比如谷歌地图）<br>复杂度高会减慢渲染速度（任何过度使用 DOM 的应用都不快）<br>不适合游戏应用</p>
+<h2 id="说说htmldom-和dom的异同"><a href="#说说htmldom-和dom的异同" class="headerlink" title="说说htmldom 和dom的异同"></a>说说htmldom 和dom的异同</h2><p>DOM 是 W3C的标准。<br>DOM 定义了访问 HTML 和 XML 文档的标准：<br>W3C DOM 标准被分为 3 个不同的部分：<br>核心 DOM - 针对任何结构化文档的标准模型<br>XML DOM - 针对 XML 文档的标准模型<br>HTML DOM - 针对 HTML 文档的标准模型</p>
+<p>什么是 HTML DOM？<br>HTML DOM 是：<br>HTML 的标准对象模型<br>HTML 的标准编程接口<br>W3C 标准<br>HTML DOM 定义了所有 HTML 元素的对象和属性，以及访问它们的方法。</p>
+<h2 id="说说audio标签"><a href="#说说audio标签" class="headerlink" title="说说audio标签"></a>说说audio标签</h2><p>html5新增标签 拥有更强大的音频属性 控制音频的播放。<br>`</p>
+<p><audio src="song.ogg" controls="controls"><br></audio><br>`</p>
+<h2 id="简述下什么是事件流"><a href="#简述下什么是事件流" class="headerlink" title="简述下什么是事件流"></a>简述下什么是事件流</h2><p>冒泡型事件：事件按照从最特定的事件目标到最不特定的事件目标(document对象)的顺序触发。</p>
+<p>捕获型事件(event capturing)：事件从最不精确的对象(document 对象)开始触发，然后到最精确</p>
+<p>附：事件冒泡（的过程）：事件从发生的目标（event.srcElement||event.target）开始，沿着文档逐层向上冒泡，到document为止。</p>
+<p>DOM事件流：同时支持两种事件模型：捕获型事件和冒泡型事件，但是，捕获型事件先发生。两种事件流会触及DOM中的所有对象，从document对象开始，也在document对象结束。</p>
+<p>传统绑定事件方式<br>在一个支持W3C DOM的浏览器中，像这样一般的绑定事件方式，是采用的事件冒泡方式。<br>ele.onclick = doSomething2</p>
+<p>W3C模型<br>W3C模型是将两者进行中和，在W3C模型中，任何事件发生时，先从顶层开始进行事件捕获，直到事件触发到达了事件源元素。然后，再从事件源往上进行事件冒泡，直到到达document。</p>
+<h2 id="css中什么单位跟父元素相关，什么单位跟根元素相关。"><a href="#css中什么单位跟父元素相关，什么单位跟根元素相关。" class="headerlink" title="css中什么单位跟父元素相关，什么单位跟根元素相关。"></a>css中什么单位跟父元素相关，什么单位跟根元素相关。</h2><p>em , rem</p>
+<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>这上面都是差不多能想起来的笔试题目了。<br>下面写一点面试的题目。（基于我antd项目）</p>
+<ul>
+<li>简述antd</li>
+<li>说出antd脚手架生成的各个文件的用处或者意义（问的比较深，还问及了包信息，webpackconfig里的内容。。。）</li>
+<li>现场修改项目内容  </li>
+<li>现场对组件进行修改再利用</li>
+<li>说说react比较重要的方法</li>
+<li>react－route工作机制，分发方法，渲染节点，URL的探查方法（反应改变）</li>
+</ul>
+<h1 id="面试必问题目"><a href="#面试必问题目" class="headerlink" title="面试必问题目"></a>面试必问题目</h1><p>几天面试 发现出现率最高 又难的题目就是 闭包。 闭包几乎必问。其次是this 作用域 原型链也应该深入了解。<br>是要深入理解的一个知识点。</p>
+<p>js基础相关选择题 和填空题 也要多加练习。<br>今天还面了一道js程序题。给你一个逻辑。你写出相对应的js程序和一道英语翻译。。。。（ 论英语的重要性｜｜）</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[第一次面试总结]]></title>
       <url>https://xu455255849.github.io/2016/08/08/%E7%AC%AC%E4%B8%80%E6%AC%A1%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/</url>
       <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>人生第一次面试，面试地点比较远，在云栖小镇，路上风景真是不错，有种依山傍水的感觉。<br>回到家已经下午了，面试感觉还行，面试官没有像我预料的问比较多的html5，css3的基础性问题<br>问题比较综合，这里总结一下。心情有点紧张，有些可能已经想不起来了，能写多少是多少。</p>
@@ -11,7 +55,23 @@
 <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><h2 id="了解过html5和css3吗？"><a href="#了解过html5和css3吗？" class="headerlink" title="了解过html5和css3吗？"></a>了解过html5和css3吗？</h2><p>a：了解过，我用css3 canvas做了一个小游戏，在这个过程中也了解了下cocos2d，目前感觉还是比较难的。</p>
 <h2 id="博客的效果都是自己做的吗？"><a href="#博客的效果都是自己做的吗？" class="headerlink" title="博客的效果都是自己做的吗？"></a>博客的效果都是自己做的吗？</h2><p>a：我的博客是基于node.js的hexo框架制作的，特效并不是自己做的。但是内容都是自己做的。</p>
 <h2 id="了解过浏览器兼容性吗？碰到兼容性问题怎么处理？"><a href="#了解过浏览器兼容性吗？碰到兼容性问题怎么处理？" class="headerlink" title="了解过浏览器兼容性吗？碰到兼容性问题怎么处理？"></a>了解过浏览器兼容性吗？碰到兼容性问题怎么处理？</h2><p>a：了解过，不同的浏览器如果采用不同的核心，那么渲染方式就是不一样的，比如谷歌的webkit核心，所以会有兼容性问题，如果碰到兼容性问题，那要看具体什么问题了然后针对问题给出解决方案。（还问了一个有碰到ie8插入图片出现空白空隙的问题。我直接回答了没碰到过这个问题。。。）</p>
-<h2 id="使用过浮动布局吗？浮动会脱离文档流吗？使用浮动会造成什么问题？"><a href="#使用过浮动布局吗？浮动会脱离文档流吗？使用浮动会造成什么问题？" class="headerlink" title="使用过浮动布局吗？浮动会脱离文档流吗？使用浮动会造成什么问题？"></a>使用过浮动布局吗？浮动会脱离文档流吗？使用浮动会造成什么问题？</h2><p>a：用过，会脱离文档流，对BFC机制做过一定的了解。</p>
+<h2 id="使用过浮动布局吗？浮动会脱离文档流吗？使用浮动会造成什么问题？"><a href="#使用过浮动布局吗？浮动会脱离文档流吗？使用浮动会造成什么问题？" class="headerlink" title="使用过浮动布局吗？浮动会脱离文档流吗？使用浮动会造成什么问题？"></a>使用过浮动布局吗？浮动会脱离文档流吗？使用浮动会造成什么问题？</h2><p>a：用过，会脱离文档流，对BFC机制做过一定的了解。浮动会造成后面的内容上移 填补浮动元素的位置。</p>
+<p>修正及补充：浮动元素的父层的高度会为0。2种高效的清除浮动方法：</p>
+<p><code>.clearfix:before,.clearfix:after{ 
+    content:&quot;&quot;; 
+    display:table; 
+} 
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/ 
+}</code></p>
+<p><code>.clearfix:after { 
+    content:&quot;200B&quot;; 
+    display:block; 
+    height:0; 
+    clear:both; 
+} 
+.clearfix {*zoom:1;}/*IE/7/6*/</code></p>
 <h2 id="感觉自己解决问题的能力怎么样，能独立完成一些动态效果的制作吗？"><a href="#感觉自己解决问题的能力怎么样，能独立完成一些动态效果的制作吗？" class="headerlink" title="感觉自己解决问题的能力怎么样，能独立完成一些动态效果的制作吗？"></a>感觉自己解决问题的能力怎么样，能独立完成一些动态效果的制作吗？</h2><p>a：因为我是自学的，碰到过蛮多问题，基本上都是自己查资料，百度解决，感觉自己解决问题的能力还是比较强的。<br>能独立完成一些动态效果的制作。</p>
 <h2 id="了解过bootstrap的响应式机制吗？熟悉各种col所对应分辨率吗？（针对我的bootstrap项目）"><a href="#了解过bootstrap的响应式机制吗？熟悉各种col所对应分辨率吗？（针对我的bootstrap项目）" class="headerlink" title="了解过bootstrap的响应式机制吗？熟悉各种col所对应分辨率吗？（针对我的bootstrap项目）"></a>了解过bootstrap的响应式机制吗？熟悉各种col所对应分辨率吗？（针对我的bootstrap项目）</h2><p>a：了解过，通过css3的媒介查询，探测屏幕大小来达到响应式的机制，目前还比较缺少实践，没有做过移动端相关的项目，没有那么深入了解过。</p>
 <h2 id="了解querySelector选择器吗？和SelectorAll有什么区别？返回的是什么？和数组有什么区别？"><a href="#了解querySelector选择器吗？和SelectorAll有什么区别？返回的是什么？和数组有什么区别？" class="headerlink" title="了解querySelector选择器吗？和SelectorAll有什么区别？返回的是什么？和数组有什么区别？"></a>了解querySelector选择器吗？和SelectorAll有什么区别？返回的是什么？和数组有什么区别？</h2><p>a：了解过，jq的元素获取就是通过这种方式，不all的话获取一个匹配节点，all则获取匹配的所有css选择器节点。<br>返回的是一个集合，没了解那么深入。</p>
